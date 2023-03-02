@@ -10,7 +10,8 @@ class GreetingsController < ApplicationController
 
   # GET /greetings/1
   def show
-    render json: @greeting
+    @greeting = Greeting.order("RANDOM()").first.text
+    render json: {greeting: @greeting}
   end
 
   # POST /greetings
@@ -41,7 +42,8 @@ class GreetingsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_greeting
-      @greeting = Greeting.find(params[:id])
+      @greeting = Greeting.order("RANDOM()").first.text
+      
     end
 
     # Only allow a list of trusted parameters through.
