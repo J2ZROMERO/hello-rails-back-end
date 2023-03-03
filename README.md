@@ -28,9 +28,9 @@
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-# 💻 Front end app <a name="front-end-app"></a>
+# 💻 Front end react app <a name="front-end-react-app"></a>
 - You can go through the link and execute the front-end react project to enjoy a view about what the api offer.
-- [FRONT-END-APP](https://github.com/J2ZROMERO/hello-react-front-end)
+- [FRONT-END-REACT-APP](https://github.com/J2ZROMERO/hello-react-front-end)
 # 📖 hello-rails-back-end <a name="about-project"></a>
 
 >  This is a project that create a greeting api to be used in the react front end app.
